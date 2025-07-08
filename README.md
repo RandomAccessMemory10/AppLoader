@@ -7,9 +7,10 @@ xattr -d com.apple.quarantine /Applications/AppLoader.app
 - This app requires homebrew to be installed in order to function. I have implemented a homebrew checking system which detects whether it's been installed on your system. Hopefully, if you don't have homebrew installed, the app should guide you through the very straightforward process of acquiring it. If this fails, simply paste the following command into your terminal to install homebrew:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Feature list
+## Feature list
 - An ever expanding curated app library which has been sorted into categories, and a search bar to quickly find what you're looking for
 - A homepage button in the top corner of each appcard to find out more about each app
 - Extremely quick and easy installation and app mangement. Apps are installed and uninstalled with the click of one button
 - You can also directly open apps that are currently installed
 
+## See it in action
