@@ -1,7 +1,7 @@
 # [AppLoader](https://github.com/RandomAccessMemory10/AppLoader/releases/download/v1.0/AppLoader.dmg) (Click to download)
 This is a very basic alternative app store which uses homebrew to quickly install and manage apps that aren't available on the default mac app store. It uses a very simplified UI, and I've tried to make the experience as user friendly as possible. With the power that comes with homebrew, this app allows you to install and uninstall apps with a single click of a button. No more hunting the web for DMG's and installer packages, just search for the app you want out of the existing curated library. I plan to modify this app to include all available homebrew casks in the future.
 A few things to note before use:
-- This is the first app I've made, it's in its testing phase and it's unstable. I'm completely new to both coding and development, and, as ashamed as I may be to admit it, AI helped me a lot with this.
+- This is the first app I've made, it's in its testing phase and it's unstable. I'm completely new to both coding and development.
 - This app is not signed, since I'm unemployed and can't afford Apple's development program. You cannot open this app without running the following command in terminal after dragging it into your Applications folder:
 xattr -d com.apple.quarantine /Applications/AppLoader.app
 - This app requires homebrew to be installed in order to function. I have implemented a homebrew checking system which detects whether it's been installed on your system. Hopefully, if you don't have homebrew installed, the app should guide you through the very straightforward process of acquiring it. If this fails, simply paste the following command into your terminal to install homebrew:
