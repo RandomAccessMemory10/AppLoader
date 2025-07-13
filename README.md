@@ -14,6 +14,7 @@ xattr -d com.apple.quarantine /Applications/AppLoader.app
 - You can also directly open apps that are currently installed
 
 ## Pros and cons
+Pros
 - Vast curated app library
 - Extremely fast and convienient installation and app management
 - Friendly user interface
@@ -22,6 +23,7 @@ xattr -d com.apple.quarantine /Applications/AppLoader.app
 - Shows details such as app size and developer name
 - Beautiful icons pulled from macosicons.com
 
+Cons
 - Limited apps (added manually)
 - Requires homebrew
 - macOS exclusive
@@ -29,25 +31,34 @@ xattr -d com.apple.quarantine /Applications/AppLoader.app
 
 ## See it in action
 Quick installation
+
 ![part 2](https://github.com/user-attachments/assets/147b6eba-8c3e-4a51-9e70-f774c46fb4bf)
 
+---
+
 Quick deletion
+
 ![part 3](https://github.com/user-attachments/assets/56074dcb-2da3-4d99-82f6-50a4c348935a)
 
+---
+
 Installed and update views
+
 ![part 4](https://github.com/user-attachments/assets/b99098e5-c7f2-4555-bc70-276b65c963e7)
 
-
+----
 
 # BrewSearcher
 This is the alternative version to AppLoader which carries new strengths but comes with some weaknesses. Instead of a conventional window, it's formatted as a single searchbar much like the macOS spotlight search. Instead of a limited curated app library, it searches the homebrew cask library live so all possible casks are available to download. You can still manage the apps by updating, uninstalling and opening from the same place.
 
 ## Pros and cons
+Pros
 - Unlimited homebrew cask library. Contains every app that's available to install via homebrew.
 - Search is up-to-date with the current homebrew cask library.
 - Minimalist UI with a single searchbar in the style of macOS spotlight search, and can quickly be brought up by pressing ctrl + space at any point.
 - Extremely fast and convienient installation and app management
 
+Cons
 - Slower search since results and icons are loaded in real time
 - Icons may be blurry or incorrect since they're loaded from different API's
 - No app categorisation
@@ -56,11 +67,20 @@ This is the alternative version to AppLoader which carries new strengths but com
 Search entire homebrew cask library
 ![part 1 s](https://github.com/user-attachments/assets/21a93aab-357b-439f-b4ff-3ddb0362fe39)
 
+---
+
 Quick installation
 ![part 2 s](https://github.com/user-attachments/assets/45bbbdb5-f110-4299-8c8f-2976a535d8ed)
 
+---
+
 Installed and updates views
-![stage 3 s](https://github.com/user-attachments/assets/0e14df34-91c4-4d50-b07b-2a6038a49e20)
+![stage 3 s](https://github.com/user-attachments/assets/07af6a0b-967a-47e0-946f-91dd26501493)
+
+
+---
 
 Quick app management
 ![stage 4 s](https://github.com/user-attachments/assets/65884857-f969-40b5-b477-8935ba5a5155)
+
+---
