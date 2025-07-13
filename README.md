@@ -48,7 +48,7 @@ Installed and update views
 
 ----
 
-# [BrewSearcher](https://github.com/RandomAccessMemory10/AppLoader/releases/download/BrewSearcher/BrewSearcher.dmg](https://github.com/RandomAccessMemory10/AppLoader/releases/download/v1.0.0/BrewSearcher.dmg) (Click to download)
+# [BrewSearcher](https://github.com/RandomAccessMemory10/AppLoader/releases/download/v1.0.0/BrewSearcher.dmg) (Click to download)
 This is the alternative version to AppLoader which carries new strengths but comes with some weaknesses. Instead of a conventional window, it's formatted as a single searchbar much like the macOS spotlight search. Instead of a limited curated app library, it searches the homebrew cask library live so all possible casks are available to download. You can still manage the apps by updating, uninstalling and opening from the same place.
 
 ## Pros and cons
