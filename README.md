@@ -65,22 +65,26 @@ Cons
 
 ## See it in action
 Search entire homebrew cask library
+
 ![part 1 s](https://github.com/user-attachments/assets/21a93aab-357b-439f-b4ff-3ddb0362fe39)
 
 ---
 
 Quick installation
+
 ![part 2 s](https://github.com/user-attachments/assets/45bbbdb5-f110-4299-8c8f-2976a535d8ed)
 
 ---
 
 Installed and updates views
+
 ![stage 3 s](https://github.com/user-attachments/assets/07af6a0b-967a-47e0-946f-91dd26501493)
 
 
 ---
 
 Quick app management
+
 ![stage 4 s](https://github.com/user-attachments/assets/65884857-f969-40b5-b477-8935ba5a5155)
 
 ---
