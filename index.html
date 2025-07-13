@@ -1,0 +1,33 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>External App Store</title>
+
+    <!--
+      !!! THIS IS THE CRITICAL LINE THAT NEEDS TO BE FIXED !!!
+      
+      The 'content' attribute MUST be a plain string of text with spaces, not Markdown links.
+      
+      WRONG: content="... '[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)' ..."
+      RIGHT: content="... https://cdn.tailwindcss.com ..."
+    -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com;">
+    
+    <!-- These are the scripts that were failing to load because of the bad policy -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body class="bg-zinc-900">
+    <div id="root"></div>
+
+    <!-- Ensure these files exist in the same directory as your index.html -->
+    <script src="./icons.js"></script>
+    <script src="./data.js"></script>
+    <script type="text/babel" src="./renderer.js"></script>
+  </body>
+</html>
