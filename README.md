@@ -1,4 +1,4 @@
-# [AppLoader](https://github.com/RandomAccessMemory10/AppLoader/releases/download/AppLoader/AppLoader.dmg) (Click to download)
+# [AppLoader](https://github.com/RandomAccessMemory10/AppLoader/releases/download/v1.0/AppLoader.dmg) (Click to download)
 This is a very basic alternative app store which uses homebrew to quickly install and manage apps that aren't available on the default mac app store. It uses a very simplified UI, and I've tried to make the experience as user friendly as possible. With the power that comes with homebrew, this app allows you to install and uninstall apps with a single click of a button. No more hunting the web for DMG's and installer packages, just search for the app you want out of the existing curated library. I plan to modify this app to include all available homebrew casks in the future.
 A few things to note before use:
 - This is the first app I've made, it's in its testing phase and it's unstable. I'm completely new to both coding and development, and, as ashamed as I may be to admit it, AI helped me a lot with this.
@@ -48,7 +48,7 @@ Installed and update views
 
 ----
 
-# [BrewSearcher](https://github.com/RandomAccessMemory10/AppLoader/releases/download/BrewSearcher/BrewSearcher.dmg) (Click to download)
+# [BrewSearcher](https://github.com/RandomAccessMemory10/AppLoader/releases/download/BrewSearcher/BrewSearcher.dmg](https://github.com/RandomAccessMemory10/AppLoader/releases/download/v1.0.0/BrewSearcher.dmg) (Click to download)
 This is the alternative version to AppLoader which carries new strengths but comes with some weaknesses. Instead of a conventional window, it's formatted as a single searchbar much like the macOS spotlight search. Instead of a limited curated app library, it searches the homebrew cask library live so all possible casks are available to download. You can still manage the apps by updating, uninstalling and opening from the same place.
 
 ## Pros and cons
